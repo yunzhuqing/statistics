@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="io.huashili.mapper.LogEventMapper" >
+    <insert id="add" parameterType="io.huashili.dto.LogClick" useGeneratedKeys="true" keyProperty="id">
+        insert into jianhua_log_click (`create_time`, `uid`, `ip`,
+          `origin`, `topic`, `group`, `component`, `value`, `version`, `platform`)
+          value (#{createTime}, #{uid}, #{ip}, #{origin}, #{topic}, #{group},
+                #{component}, #{value}, #{version}, #{platform});
+    </insert>
+
+    <select id="get" parameterType="long">
+        select * from jianhua_log_click where id={id}
+    </select>
+</mapper>
