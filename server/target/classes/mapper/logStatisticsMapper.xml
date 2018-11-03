@@ -11,7 +11,7 @@
           value (#{key}, #{val}, #{time});
     </insert>
 
-    <select id="group" resultMap="coordinate" parameterType="java.util.Map">
+    <select id="groupSum" resultMap="coordinate" parameterType="java.util.Map">
         select
         <if test="groupType == 0">
             date_format(`time`,'%Y-%m-%d %H') as x, sum(`val`) as y
