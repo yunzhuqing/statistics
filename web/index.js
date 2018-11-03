@@ -1,9 +1,15 @@
 import Vue from 'vue';
 import ViserVue from 'viser-vue';
-Vue.use(ViserVue);
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
 
-import Test from './test.vue';
-import Line from './line.vue'
+import Index from './pages/index.vue';
+
+
+
+Vue.use(ViserVue);
+Vue.use(iView);
+
 
 var app = new Vue({
     el: '#app',
@@ -11,7 +17,6 @@ var app = new Vue({
         message: 'hello world'
     },
     components: {
-        'test-a': Test,
-        'line-a': Line
+        'Index': Index
     }
 });

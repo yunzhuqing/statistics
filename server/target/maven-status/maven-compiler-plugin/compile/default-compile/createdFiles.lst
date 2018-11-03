@@ -1,0 +1,10 @@
+io/huashili/StatisticsMain.class
+io/huashili/api/LogClickAPI.class
+io/huashili/dto/LogClick.class
+io/huashili/consumer/LogClickConsumer.class
+io/huashili/StatisticsConfiguration.class
+io/huashili/util/PlatformUtil.class
+io/huashili/TopicEnum.class
+io/huashili/util/IpUtil.class
+io/huashili/mapper/LogClickMapper.class
+io/huashili/service/LogClickService.class

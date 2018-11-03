@@ -1,6 +1,6 @@
 <template id="test">
     <div>
-        这是注册{{register}}}
+        这是注册{{register}}
     </div>
 </template>
 
@@ -8,7 +8,7 @@
     export default {
         name: "test",
         data: function () {
-            
+
         }
     }
 </script>

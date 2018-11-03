@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="io.huashili.mapper.LogStatisticsMapper">
+    <resultMap id="coordinate" type="io.huashili.dto.CoordinateDO">
+        <result column="x" property="x"/>
+        <result column="y" property="y"/>
+    </resultMap>
+
+    <insert id="add" parameterType="io.huashili.dto.LogStatistics" useGeneratedKeys="true" keyProperty="id">
+        insert into jianhua_log_statistics (`key`, `val`, `time`)
+          value (#{key}, #{val}, #{time});
+    </insert>
+
+    <select id="group" resultMap="coordinate" parameterType="java.util.Map">
+        select
+        <if test="groupType == 0">
+            date_format(`time`,'%Y-%m-%d %H') as x, sum(`val`) as y
+        </if>
+        <if test="groupType == 1">
+             date_format(`time`,'%Y-%m-%d') as x, sum(`val`) as y
+        </if>
+        <if test="groupType == 2">
+            date_format(`time`,'%Y-%m') as x, sum(`val`) as y
+        </if>
+        from jianhua_log_statistics
+        where `key`=#{key}
+        and `time`&gt;=#{lowest}
+        <if test="groupType == 0">
+            group by date_format(`time`,'%Y-%m-%d %H')
+        </if>
+        <if test="groupType == 1">
+            group by date_format(`time`,'%Y-%m-%d')
+        </if>
+        <if test="groupType == 2">
+            group by date_format(`time`,'%Y-%m')
+        </if>
+    </select>
+</mapper>

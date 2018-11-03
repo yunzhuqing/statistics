@@ -1,0 +1,10 @@
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/consumer/LogClickConsumer.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/TopicEnum.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/dto/LogClick.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/util/PlatformUtil.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/service/LogClickService.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/StatisticsConfiguration.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/mapper/LogClickMapper.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/util/IpUtil.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/StatisticsMain.java
+/Users/yunzhuqing/Documents/sources/statistics/server/src/main/java/io/huashili/api/LogClickAPI.java
