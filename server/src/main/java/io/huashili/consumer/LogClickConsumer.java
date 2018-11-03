@@ -1,9 +1,9 @@
 package io.huashili.consumer;
 
-import io.huashili.StatisticsConfiguration;
+import io.huashili.StatisticsConfig;
 import io.huashili.dto.LogClick;
 import io.huashili.service.LogClickService;
-import org.apache.activemq.ActiveMQConnectionFactory;
+import io.huashili.util.RedisUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.jms.annotation.JmsListener;
@@ -11,19 +11,22 @@ import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.config.JmsListenerContainerFactory;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 
+import javax.annotation.Resource;
 import javax.jms.ConnectionFactory;
-import javax.jms.JMSConnectionFactory;
 
 @Service
 public class LogClickConsumer {
-    public static final String CONNECTION_FACTORY = "";
 
     @Autowired
     private ConnectionFactory connectionFactory;
 
     @Autowired
     private LogClickService logClickService;
+
+    @Resource
+    private RedisUtil redisUtil;
 
     @Bean
     public JmsListenerContainerFactory queueListener() {
@@ -33,9 +36,20 @@ public class LogClickConsumer {
         return listenerContainerFactory;
     }
 
-    @JmsListener(destination = StatisticsConfiguration.QUEUE_LOG_CLICK, containerFactory = "queueListener")
+    @JmsListener(destination = StatisticsConfig.QUEUE_LOG_CLICK, containerFactory = "queueListener")
     public void logClickListener(@Payload LogClick logClick) {
-        System.out.println("receive a message");
+        String key = "";
+        if(!StringUtils.isEmpty(logClick.getTopic())) {
+            key += logClick.getTopic();
+        } else if(StringUtils.isEmpty(logClick.getGroup())) {
+            key += "-" + logClick.getGroup();
+        } else if(StringUtils.isEmpty(logClick.getComponent())) {
+            key += "-" + logClick.getComponent();
+        }
+
+        if(!StringUtils.isEmpty(key)) {
+            redisUtil.incr(key, 1);
+        }
         logClickService.log(logClick);
     }
 }

@@ -15,7 +15,7 @@ import java.util.Arrays;
 
 @Configuration
 @EnableJms
-public class StatisticsConfiguration {
+public class StatisticsConfig {
     public static final String QUEUE_LOG_CLICK = "io.huashili.logclick";
 
     public static final String CONNECTION_URL = "tcp://localhost:61616";
@@ -23,7 +23,7 @@ public class StatisticsConfiguration {
     @Bean
     public ConnectionFactory connectionFactory() {
         ActiveMQConnectionFactory connectionFactory = new ActiveMQConnectionFactory(CONNECTION_URL);
-        connectionFactory.setTrustedPackages(Arrays.asList("io.huashili.dto"));
+        connectionFactory.setTrustAllPackages(true);
         return connectionFactory;
     }
 

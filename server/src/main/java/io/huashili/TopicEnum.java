@@ -4,13 +4,15 @@ package io.huashili;
  * topic 枚举
  */
 public enum TopicEnum {
+    INDEX("index", "index"),
+
     LOGIN("login", "login");
 
     private String id;
 
     private String desc;
 
-    private TopicEnum(String id, String desc) {
+    TopicEnum(String id, String desc) {
         this.id = id;
         this.desc = desc;
     }
@@ -24,4 +26,14 @@ public enum TopicEnum {
         }
         return false;
     }
+
+    public String getId() {
+        return id;
+    }
+
+    public static TopicEnum [] topics () {
+        return values();
+    }
+
+
 }
