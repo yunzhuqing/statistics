@@ -35,4 +35,36 @@
             group by date_format(`time`,'%Y-%m')
         </if>
     </select>
+
+    <select id="maxKeys" resultMap="coordinate" parameterType="java.util.Map">
+        select `key` as x, sum(val) as `y` from jianhua_log_statistics
+        <where>
+            <if test="keys != null and keys.size > 0">
+                AND `key` in
+                <foreach collection="keys" item="item" separator="," open="(" close=")">
+                    #{item}
+                </foreach>
+            </if>
+            <if test="startTime != null">
+                AND `time` &gt;= #{startTime}
+            </if>
+            <if test="endTime != null">
+                AND `time` &lt;= #{endTime}
+            </if>
+        </where>
+        group by `key`
+        <if test="groupType == 0">
+            , date_format(`time`,'%Y-%m-%d %H')
+        </if>
+        <if test="groupType == 1">
+            , date_format(`time`,'%Y-%m-%d')
+        </if>
+        <if test="groupType == 2">
+            , date_format(`time`,'%Y-%m')
+        </if>
+        order by `y` desc
+        <if test="offset != null and len != null">
+            limit #{offset}, #{len}
+        </if>
+    </select>
 </mapper>

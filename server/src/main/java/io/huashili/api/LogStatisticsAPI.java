@@ -34,4 +34,18 @@ public class LogStatisticsAPI {
         List<CoordinateDO> data=logStatisticsService.groupsSum(key, GroupType.valueOf(groupType), start);
         return new ResponseEntity<>(data, HttpStatus.OK);
     }
+
+    /**
+     * 获取点击最多的组件
+     * @param groupType
+     * @param diff
+     * @return
+     */
+    @RequestMapping("/maxKeys")
+    public ResponseEntity<List<CoordinateDO>> maxKeys(@RequestParam("groupType") Integer groupType,
+                                                       @RequestParam("diff") Long diff) {
+        List<CoordinateDO> data=logStatisticsService.maxKeys(GroupType.valueOf(groupType), diff);
+        return new ResponseEntity<>(data, HttpStatus.OK);
+    }
+
 }

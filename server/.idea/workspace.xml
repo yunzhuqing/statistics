@@ -2,32 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3603b63e-1060-457a-b494-c10647222bc2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/huashili/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/huashili/util/TimeUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/io/huashili/UserMapperTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web/src/pages/click.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web2/src/index.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../web2/src/user.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/huashili/StatisticsTimeJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/huashili/StatisticsTimeJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/io/huashili/TopicEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/huashili/TopicEnum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/huashili/api/LogStatisticsAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/huashili/api/LogStatisticsAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/huashili/mapper/LogStatisticsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/huashili/mapper/LogStatisticsMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/io/huashili/service/LogStatisticsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/huashili/service/LogStatisticsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/huashili/StatisticsTimeJob.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/huashili/StatisticsTimeJob.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/huashili/TopicEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/huashili/TopicEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/huashili/api/LogStatisticsAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/huashili/api/LogStatisticsAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/io/huashili/service/LogStatisticsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/io/huashili/service/LogStatisticsService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../web/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/button.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../web/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/pages/click.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web2/src/click.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web/src/pages/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/test.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../web/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../web/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/logStatisticsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/logStatisticsMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web2/src/click.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../web2/src/click.vue" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,37 +30,37 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="5" />
+          <entry key="class" value="6" />
           <entry key="dtd" value="1" />
-          <entry key="java" value="55" />
+          <entry key="java" value="59" />
           <entry key="properties" value="7" />
-          <entry key="xml" value="5" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="5" />
+          <entry key="CLASS" value="6" />
           <entry key="DTD" value="1" />
-          <entry key="JAVA" value="55" />
+          <entry key="JAVA" value="59" />
           <entry key="Properties" value="7" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4014" />
+          <entry key="java" value="4473" />
           <entry key="properties" value="23" />
           <entry key="txt" value="8" />
-          <entry key="xml" value="764" />
+          <entry key="xml" value="1220" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4014" />
+          <entry key="JAVA" value="4473" />
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="Properties" value="23" />
-          <entry key="SQL" value="29" />
-          <entry key="XML" value="735" />
+          <entry key="SQL" value="50" />
+          <entry key="XML" value="1170" />
         </counts>
       </usages-collector>
     </session>
@@ -90,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/StatisticsTimeJob.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
+            <state relative-caret-position="328">
               <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -99,57 +79,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/mapper/LogStatisticsMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="73" column="71" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="73" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-              <folding>
-                <element signature="e#372#376#0" expanded="true" />
-                <element signature="e#459#463#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/dto/CoordinateDO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/io/huashili/UserMapperTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="35" column="59" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/util/TimeUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/TopicEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -157,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/api/LogStatisticsAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="405">
+              <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -166,20 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/GroupType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/dto/LogStatistics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -187,13 +145,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/service/LogStatisticsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+            <state relative-caret-position="157">
+              <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#733#734#0" expanded="true" />
                 <element signature="e#787#788#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/logStatisticsMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -231,10 +198,7 @@
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/dto/CoordinateDO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/logEventMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/io/huashili/LogEventMapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/api/LogClickAPI.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/logStatisticsMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/io/huashili/mapper/LogStatisticsMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/GroupType.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -245,14 +209,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/RedisConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/StatisticsConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/io/huashili/api/LogStatisticsAPI.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/util/TimeUtil.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/io/huashili/UserMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/StatisticsTimeJob.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/TopicEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/huashili/mapper/LogStatisticsMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/io/huashili/service/LogStatisticsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/huashili/api/LogStatisticsAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/logStatisticsMapper.xml" />
       </list>
     </option>
   </component>
@@ -300,84 +267,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huashili" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huashili" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huashili" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huashili" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="statistics" type="b2602c69:ProjectViewProjectNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="huashili" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -393,7 +282,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541318061784" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541338042306" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
@@ -421,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.testHour">
+  <component name="RunManager" selected="Spring Boot.StatisticsMain">
     <configuration name="TimeUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.huashili.util.TimeUtil" />
       <module name="statistics" />
@@ -435,7 +324,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogStatisticsMapperTest.testHour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LogStatisticsMapperTest.testMaxKeys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="statistics" />
       <extension name="coverage">
         <pattern>
@@ -445,7 +334,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="io.huashili" />
       <option name="MAIN_CLASS_NAME" value="io.huashili.LogStatisticsMapperTest" />
-      <option name="METHOD_NAME" value="testHour" />
+      <option name="METHOD_NAME" value="testMaxKeys" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -497,19 +386,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LogStatisticsMapperTest.testHour" />
       <item itemvalue="Spring Boot.StatisticsMain" />
       <item itemvalue="Application.TimeUtil" />
       <item itemvalue="JUnit.UserMapperTest.testHour" />
       <item itemvalue="JUnit.UserMapperTest" />
+      <item itemvalue="JUnit.LogStatisticsMapperTest.testMaxKeys" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.StatisticsMain" />
+        <item itemvalue="JUnit.LogStatisticsMapperTest.testMaxKeys" />
         <item itemvalue="JUnit.UserMapperTest.testHour" />
         <item itemvalue="JUnit.UserMapperTest" />
         <item itemvalue="Application.TimeUtil" />
-        <item itemvalue="JUnit.LogStatisticsMapperTest.testHour" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +415,7 @@
       <workItem from="1541074176390" duration="12880000" />
       <workItem from="1541225081401" duration="11888000" />
       <workItem from="1541254322989" duration="941000" />
-      <workItem from="1541257011707" duration="12403000" />
+      <workItem from="1541257011707" duration="17678000" />
     </task>
     <task id="LOCAL-00001" summary="初始化项目">
       <created>1541249691335</created>
@@ -539,21 +428,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LogStatisticsMapperTest_testHour - 2018.11.01 at 22h 46m 25s.xml">
-      <configuration name="LogStatisticsMapperTest.testHour" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogStatisticsMapperTest_testDay - 2018.11.01 at 22h 49m 40s.xml">
-      <configuration name="LogStatisticsMapperTest.testDay" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogStatisticsMapperTest_testHour - 2018.11.01 at 22h 51m 52s.xml">
-      <configuration name="LogStatisticsMapperTest.testHour" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LogStatisticsMapperTest_testHour - 2018.11.01 at 22h 52m 57s.xml">
-      <configuration name="LogStatisticsMapperTest.testHour" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UserMapperTest_testHour - 2018.11.04 at 15h 03m 09s.xml">
-      <configuration name="UserMapperTest.testHour" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UserMapperTest_testHour - 2018.11.04 at 15h 03m 52s.xml">
       <configuration name="UserMapperTest.testHour" configurationId="JUnit" />
     </history-entry>
@@ -569,15 +443,29 @@
     <history-entry file="UserMapperTest_testHour - 2018.11.04 at 15h 39m 05s.xml">
       <configuration name="UserMapperTest.testHour" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UserMapperTest_testHour - 2018.11.04 at 15h 59m 45s.xml">
+      <configuration name="UserMapperTest.testHour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogStatisticsMapperTest_testMaxKeys - 2018.11.04 at 16h 31m 06s.xml">
+      <configuration name="LogStatisticsMapperTest.testMaxKeys" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogStatisticsMapperTest_testMaxKeys - 2018.11.04 at 19h 59m 17s.xml">
+      <configuration name="LogStatisticsMapperTest.testMaxKeys" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogStatisticsMapperTest_testMaxKeys - 2018.11.04 at 20h 04m 04s.xml">
+      <configuration name="LogStatisticsMapperTest.testMaxKeys" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LogStatisticsMapperTest_testMaxKeys - 2018.11.04 at 20h 07m 12s.xml">
+      <configuration name="LogStatisticsMapperTest.testMaxKeys" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38112000" />
+    <option name="totallyTimeSpent" value="43387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1389" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2412769" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1484781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -587,8 +475,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3375796" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.35031846" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3375796" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29299363" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -665,6 +553,12 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -697,13 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="35" column="65" lean-forward="true" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="45" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -792,13 +679,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/logStatisticsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="9" column="63" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/api/LogClickAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -837,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/dto/CoordinateDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -865,13 +738,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/mapper/LogStatisticsMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -912,34 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/GroupType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/io/huashili/UserMapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="35" column="59" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/api/LogStatisticsAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="27" column="14" lean-forward="true" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/StatisticsTimeJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
-          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -950,10 +792,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/mapper/LogStatisticsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/dto/CoordinateDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/StatisticsTimeJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="49" column="44" lean-forward="true" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/io/huashili/LogStatisticsMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="73" column="71" lean-forward="true" selection-start-line="70" selection-start-column="7" selection-end-line="73" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/GroupType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/service/LogStatisticsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="79" column="5" lean-forward="true" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        <state relative-caret-position="157">
+          <caret line="73" column="30" selection-start-line="73" selection-start-column="30" selection-end-line="73" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#733#734#0" expanded="true" />
@@ -962,14 +856,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/userMapper.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/huashili/api/LogStatisticsAPI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding>
-            <element signature="e#372#376#0" expanded="true" />
-            <element signature="e#459#463#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="46" column="57" selection-start-line="46" selection-start-column="57" selection-end-line="46" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/logStatisticsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
         </state>
       </provider>
     </entry>

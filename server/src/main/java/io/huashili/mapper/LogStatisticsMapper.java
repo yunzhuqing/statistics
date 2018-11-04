@@ -25,4 +25,11 @@ public interface LogStatisticsMapper {
      * @return
      */
     List<CoordinateDO> groupSum(Map<String, Object> attrs);
+
+    /**
+     * 点击数最多的前10个组件
+     * @param attrs
+     * @return
+     */
+    List<CoordinateDO> maxKeys(Map<String, Object> attrs);
 }

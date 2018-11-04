@@ -11,10 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @Service
 public class LogStatisticsService {
@@ -68,6 +65,21 @@ public class LogStatisticsService {
             coordinates.add(coordinateDO);
         }
         return coordinates;
+    }
+
+    /**
+     * 点击最多的组件
+     * @return
+     */
+    public List<CoordinateDO> maxKeys(GroupType groupType, Long diff) {
+        Map<String, Object> params = new HashMap<>();
+        params.put("groupType", groupType.ordinal());
+        Date lowest = new Date(System.currentTimeMillis() - diff);
+        params.put("startTime", dateFormat.format(lowest));
+        params.put("keys", Arrays.asList());
+        params.put("offset", 0);
+        params.put("len", 24);
+        return logStatisticsMapper.maxKeys(params);
     }
 
     /**

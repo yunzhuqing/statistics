@@ -12,6 +12,7 @@ import org.springframework.util.Assert;
 
 import javax.annotation.Resource;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -65,5 +66,15 @@ public class LogStatisticsMapperTest {
         });
     }
 
+    @Test
+    public void testMaxKeys() {
+        Map<String, Object> params = new HashMap<>();
+//        params.put("keys", Arrays.asList());
+        params.put("groupType", GroupType.DAY.ordinal());
+        List<CoordinateDO> sumList=logStatisticsMapper.maxKeys(params);
+        for(CoordinateDO coordinateDO : sumList) {
+            System.out.println("coordinate obj: " + coordinateDO.getX() + " " + coordinateDO.getY());
+        }
+    }
 
 }
