@@ -15,6 +15,7 @@ public class StatisticsTimeJob {
     @Resource
     private LogStatisticsService logStatisticsService;
 
+
     @Resource
     private RedisUtil redisUtil;
 
@@ -35,7 +36,20 @@ public class StatisticsTimeJob {
             logStatistics.setVal(Double.valueOf(value));
             logStatistics.setTime(new Date());
             logStatisticsService.save(logStatistics);
-            redisUtil.set(value, 0);
+            redisUtil.set(topic.getId(), 0);
         }
+    }
+
+    /**
+     * 每小时统计一次增长人数
+     */
+    @Scheduled(cron = "0 0 0/1 * * *")
+    public void syncUserTotal() {
+        Long size  = logStatisticsService.sizeOfPeopleInHour();
+        LogStatistics logStatistics = new LogStatistics();
+        logStatistics.setKey(TopicEnum.USER_TOTAL_HOUR.getId());
+        logStatistics.setVal(Double.valueOf(size));
+        logStatistics.setTime(new Date());
+        logStatisticsService.save(logStatistics);
     }
 }

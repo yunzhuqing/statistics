@@ -22,6 +22,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
+@RequestMapping("/api")
 public class LogStatisticsAPI {
 
     @Autowired
